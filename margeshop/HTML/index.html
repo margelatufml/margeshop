@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>¡Marge's Store</title>
+    <meta charset                 = "UTF-8">
+    <meta name                    = "viewport" content="width=device-width, initial-scale=1.0">
+    <link rel                     = "icon"       href = "../images/shopbag.png">
+    <link rel                     = "stylesheet" href = "../CSS/style.css">
+    <link rel                     = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<body>
+
+    <!-- <div class                    = "header">
+        <div class                = "'navbar">
+            <div class            = "navbar">
+                <div class        = "logo">
+                <img src          = "../images/logo.PNG">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href   = "">Home</a> </li>
+                    <li><a href   = "">Products</a> </li>
+                    <li><a href   = "">About</a></li>
+                    <li><a href   = "#Contact">Contact</a></li>
+                    <li><a href   = "../HTML/SignUp.html" target="_blank">Account</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div> -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar_main">
+   <img src              = "../images/logo1.png" id="img_navbar">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav" id="navbar_text">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="pop_up hidden">
+  <button type="button" class="close btn_cookie" aria-label="Close">
+  <span aria-hidden="true">&times;</span>
+</button>
+<p id="cookie_txt">Cookies</p>
+<button type="button" class="btn_btn_secondary" id="btn_cookies1">Accept</button>
+<button type="button" class="btn_btn_secondary" id="btn_cookies2">Decline</button>
+</div>
+<div class="overlay hidden"></div>
+    <div class="search-bar">
+        <div class="search-container">
+            <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div class                    = "items">
+        <div class                = "item-1">
+            <img src              = "../images/bglogo.PNG" style="width:100%">
+            <h1>Item 1</h1>
+            <p class              = "price">$11.99</p>
+            <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+        <div class                = "item-2">
+            <img src              = "../images/bglogo.PNG" style="width:100%">
+            <h1>Item 2</h1>
+            <p class              = "price">$19.99</p>
+            <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+        <div class                = "item-3">
+            <img src              = "../images/bglogo.PNG" style="width:100%">
+            <h1>Item 3</h1>
+            <p class              = "price">$9.99</p>
+            <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+    </div>
+</body>
+
+<script type="module" src='../js/index.js'></script>
+</html>
